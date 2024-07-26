@@ -23,6 +23,7 @@ Azure Resource Manager 의 endpoint 는 https://management.azure.com/~ 이고 Az
 
 ## 리소스 진단 로그
 리소스 마다 저장되는 진단로그 항목은 다르며 로깅을 남기고 싶은 항목에 대해 구성 가능
+VM 의 경우 진단로그가 VM insights 로 대체되었고, 다른 리소스와 같이 진단로그 추가 설정을 위해서는 활동로그의 `Export Activity Logs` 메뉴에서 설정 가능.
 
 _(Blob 스토리지의 진단 로그 설정 예시)_
 ![](images/2024-07-24-17-47-35.png)
