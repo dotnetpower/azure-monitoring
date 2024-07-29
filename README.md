@@ -8,6 +8,9 @@ Log Analytics Workspace 를 생성하고 메트릭 데이터를 Log Analytics WS
 
 - VM 의 경우에는 `Monitoring-Insights` 설정으로 구성
 - 다른 리소스(스토리지, NIC 등)는 `Monitoring-Diagnostic Setting`을 통해 메트릭을 Log Analytics WS에 저장하도록 구성 가능
+- Azure Monitor Agent 를 통해서 수집되는 로그 또한 Log Analytics Workspace 로 저장
+
+> Azure Monitor Workspace 에는 현재(2024년 7월)기준 Prometheus 메트릭만 저장
 
 
 ![](images/2024-07-24-17-33-17.png)
