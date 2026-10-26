@@ -2,6 +2,12 @@
 
 ![](images/2024-08-07-11-30-55.png)
 
+## 문서
+
+- [Azure Monitoring 2시간 점검 플랜](azure-monitoring-assessment-plan.md)
+- [Azure Monitoring 상세 점검 체크리스트 및 PPT 작성 기준](azure-monitoring-assessment-checklist.md)
+- [리눅스 커스텀 로그를 Log Analytics Table에 저장하는 방안](text_log.md)
+
 Azure 리소스 모니터링을 위해 다양한 방법이 존재
 
 VM 의 CPU, Memory, Disk 등의 숫자형태로 표현가능한 로그는 `플랫폼 메트릭` 형태로 Azure Monitor 메트릭 데이터베이스에 저장이 되며 데이터를 직접 접근 할 수는 없음.
